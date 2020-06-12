@@ -26,7 +26,7 @@ with open("passwords.passwords", "a+") as f:
 
 
     def get_info():
-        f.write(", {0}: {1} ".format(box1.get(), box2.get()))
+        f.write(", {0}: {1}".format(box1.get(), box2.get()))
 
     def output_info():
         f.seek(0)
